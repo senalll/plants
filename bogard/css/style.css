@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+/* MAIN NAME  MAIN NAME  MAIN NAME  MAIN NAME  MAIN NAME  MAIN NAME */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+.menu_bar{
+    background-color: white;
+    width: 900px;
+    padding: 0px calc((100% - 900px)/2);
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1000;
+}
+
+.m_b_a{
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.m_b_name{
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.m_b_main{
+    letter-spacing: 0px;
+    /* transition-duration: 1s; */
+    color: black;
+    transition: 0.4s linear;
+
+}
+.m_b_main:hover{
+    letter-spacing: 5px;
+    color: transparent;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px; 
+    /* transition-duration: 0.5s; */
+}
+
+
+
+/* MENU RIGHT  MENU RIGHT  MENU RIGHT  MENU RIGHT  MENU RIGHT  MENU RIGHT*/
+
+html, body{
+    height: 100%;
+} 
+
+/* SCROLL BAR  SCROLL BAR  SCROLL BAR  SCROLL BAR  SCROLL BAR  SCROLL BAR */
+body::-webkit-scrollbar{
+    width: 10px;
+    right: 10px;
+    height: 50px;   
+}
+
+body::-webkit-scrollbar-track{
+    background-color: white;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+}
+
+body::-webkit-scrollbar:hover{
+    cursor: none;
+}
+
+
+
+/* SHOP SHOP SHOP SHOP */
+.shop_main{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    /* background-color: blueviolet; */
+    float: left;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+.shop_category{
+    width: 300px;
+    height: 700px;
+    /* background-color: brown; */
+    float: left;
+}
+.category{
+    position: absolute;
+    /* background-color: red; */
+    font-size: 20px;  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 100px;
+    float: left;
+    left: 30px;
+    color: black;
+    margin-left: 20px;
+}
+li{
+    list-style: none;
+}
+.shop_ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: burlywood; */
+    margin: 130px 0px 0px 60px;
+}
+
+.shop_li{
+    position: relative;
+    font-size: 15px;  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    color: grey;
+    cursor: pointer;
+}
+
+.shop_gallery{
+    float: left;
+    /* background-color: darkblue; */
+    width: 1000px;
+    height: 600px;
+    margin: 50px 0px 0px 100px;
+}
+.succulent_1{
+    float: left;
+    width: 150px;
+    height: 150px;
+    /* background-color: darkgoldenrod; */
+    background-size: cover;
+    background-image: url(../img/succulents/succu_1.jpg);
+    margin: 10px 0px 0px 10px;
+}
+.succulent_2{
+    float: left;
+    width: 150px;
+    height: 150px;
+    /* background-color: darkgoldenrod; */
+    background-size: cover;
+    background-image: url(../img/succulents/succu_3.jpg);
+    margin: 10px 0px 0px 10px;
+}
+.cactus_1{
+    float: left;
+    width: 150px;
+    height: 150px;
+    /* background-color: darkgoldenrod; */
+    background-size: cover;
+    background-image: url(../img/cactuses/cactus_1.jpg);
+    margin: 10px 0px 0px 10px;
+}
+.cactus_2{
+    float: left;
+    width: 150px;
+    height: 150px;
+    /* background-color: darkgoldenrod; */
+    background-size: cover;
+    background-image: url(../img/cactuses/cactus_2.jpg);
+    margin: 10px 0px 0px 10px;
+}
+.aglo_1{
+    float: left;
+    width: 150px;
+    height: 150px;
+    /* background-color: darkgoldenrod; */
+    background-size: cover;
+    background-image: url(../img/aglo/aglo_1.jpg);
+    margin: 10px 0px 0px 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+.cost_s_1{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    /* background-color: darkmagenta; */
+    top: 150px;
+    text-align: center;
+}
+.cost_s_2{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    /* background-color: darkmagenta; */
+    top: 150px;
+    text-align: center;
+}
+
+
+.cost_c_1{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    /* background-color: darkmagenta; */
+    top: 150px;
+    text-align: center;
+}
+.cost_c_2{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    /* background-color: darkmagenta; */
+    top: 150px;
+    text-align: center;
+}
+
+.cost_a_1{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    /* background-color: darkmagenta; */
+    top: 150px;
+    text-align: center;
+}
